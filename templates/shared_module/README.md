@@ -9,7 +9,7 @@ To manually install the module, download the source code and unzip the contents
 of the \Modules\<%=${PLASTER_PARAM_project_name}%> directory to the
 $env:ProgramFiles\WindowsPowerShell\Modules folder
 
-To install from the PowerShell gallery using PowerShellGet (in PowerShell 5.0)
+To install from the PowerShell gallery using PowerShellGet (in PowerShell 5.1)
 run the following command:
 
     Find-Module -Name <%=${PLASTER_PARAM_project_name}%> -Repository PSGallery | Install-Module

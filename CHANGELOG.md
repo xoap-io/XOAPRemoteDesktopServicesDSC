@@ -9,9 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - None
 
-### Changed
+## [0.0.1] - 2023-10-09
 
-- None
+- initial version
 
 ### Deprecated
 
