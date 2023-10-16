@@ -446,8 +446,8 @@ Download the registration script for the session host node:
 > Be sure to run the script as administrator in PowerShell 5.1
 
 After a few minutes, your nodes should show up as compliant in XOAP.
-=======
-A full list of changes in each version can be found in the [change log](CHANGELOG.md).
+
+A full list of changes in each version can be found in the [Releases](https://github.com/xoap-io/XOAPRemoteDesktopServicesDSC/releases).
 
 ## Documentation
 
