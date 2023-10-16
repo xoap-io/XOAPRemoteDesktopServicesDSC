@@ -1,4 +1,4 @@
-configuration 'XOAP_AddServerToCollection'
+Configuration 'XOAP_AddServerToCollection'
 {
     Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
 

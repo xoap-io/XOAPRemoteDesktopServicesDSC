@@ -1,4 +1,4 @@
-configuration 'XOAP_ConfigureSessionHostCollection'
+Configuration 'XOAP_ConfigureSessionHostCollection'
 {
     Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'xRemoteDesktopSessionHost' -ModuleVersion '2.1.0'

@@ -12,7 +12,7 @@ Please check out common DSC Community [contributing guidelines](https://dsccommu
 
 ## Change log
 
-A full list of changes in each version can be found in the [change log](CHANGELOG.md).
+A full list of changes in each version can be found in the [Releases](https://github.com/xoap-io/XOAPRemoteDesktopServicesDSC/releases).
 
 ## Documentation
 
@@ -183,7 +183,7 @@ To implement the Remote Desktop Services DSC module, add the following resources
 ### Add server to a collection
 
 ```PowerShell
-configuration 'XOAP_AddServerToCollection'
+Configuration 'XOAP_AddServerToCollection'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_AddServerToCollection' -ModuleVersion '0.0.1'
     
@@ -200,7 +200,7 @@ XOAP_AddServerToCollection
 ### Add a server to the RDS deployment
 
 ```PowerShell
-configuration 'XOAP_AddServerToDeployment'
+Configuration 'XOAP_AddServerToDeployment'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_AddServerToDeployment' -ModuleVersion '0.0.1'
     
@@ -217,7 +217,7 @@ XOAP_AddServerToDeployment
 ### Certificate configuration	
 
 ```PowerShell
-configuration 'XOAP_ConfigureCertificateConfiguration'
+Configuration 'XOAP_ConfigureCertificateConfiguration'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureCertificateConfiguration' -ModuleVersion '0.0.1'
 
@@ -234,7 +234,7 @@ XOAP_ConfigureCertificateConfiguration
 ### Configure license server
 
 ```PowerShell
-configuration 'XOAP_ConfigureLicenseServer'
+Configuration 'XOAP_ConfigureLicenseServer'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureLicenseServer' -ModuleVersion '0.0.1'
 
@@ -251,7 +251,7 @@ XOAP_ConfigureLicenseServer
 ### Configure Session Host Collection
 
 ```PowerShell
-configuration 'XOAP_ConfigureSessionHostCollection'
+Configuration 'XOAP_ConfigureSessionHostCollection'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureSessionHostCollection' -ModuleVersion '0.0.1'
     
@@ -290,7 +290,7 @@ XOAP_ConfigureSessionHostCollection
 ### New RDS deployment
 
 ```PowerShell
-configuration 'XOAP_NewRDSDeployment'
+Configuration 'XOAP_NewRDSDeployment'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_NewRDSDeployment' -ModuleVersion '0.0.1'
     
@@ -307,7 +307,7 @@ XOAP_NewRDSDeployment
 ### New Remote App
 
 ```PowerShell
-configuration 'XOAP_NewRemoteApp'
+Configuration 'XOAP_NewRemoteApp'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_NewRemoteApp' -ModuleVersion '0.0.1'
     
@@ -334,7 +334,7 @@ XOAP_NewRemoteApp
 ### New Session Host Collection
 
 ```PowerShell
-configuration 'XOAP_NewSessionHostCollection'
+Configuration 'XOAP_NewSessionHostCollection'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_NewSessionHostCollection' -ModuleVersion '0.0.1'
     
@@ -352,7 +352,7 @@ XOAP_NewSessionHostCollection
 ### Quick configuration
 
 ```PowerShell
-configuration 'XOAP_QuickConfiguration'
+Configuration 'XOAP_QuickConfiguration'
 {
 Import-DSCResource -Module 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_QuickStartConfiguration' -ModuleVersion '0.0.1'
     

@@ -1,4 +1,4 @@
-configuration 'XOAP_QuickConfiguration'
+Configuration 'XOAP_QuickConfiguration'
 {
 Import-DSCResource -Module 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_QuickStartConfiguration' -ModuleVersion '0.0.1'
 

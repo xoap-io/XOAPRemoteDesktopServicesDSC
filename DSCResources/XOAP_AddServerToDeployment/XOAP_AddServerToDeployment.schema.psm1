@@ -1,4 +1,4 @@
-configuration 'XOAP_AddServerToDeployment'
+Configuration 'XOAP_AddServerToDeployment'
 {
     Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
 

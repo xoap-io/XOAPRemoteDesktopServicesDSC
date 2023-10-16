@@ -1,4 +1,4 @@
-configuration 'XOAP_ConfigureCertificateConfiguration'
+Configuration 'XOAP_ConfigureCertificateConfiguration'
 {
     Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'xRemoteDesktopSessionHost' -ModuleVersion '2.1.0'

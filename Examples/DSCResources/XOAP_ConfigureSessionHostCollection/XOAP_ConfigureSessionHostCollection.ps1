@@ -1,4 +1,4 @@
-configuration 'XOAP_ConfigureSessionHostCollection'
+Configuration 'XOAP_ConfigureSessionHostCollection'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureSessionHostCollection' -ModuleVersion '0.0.1'
     

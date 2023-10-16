@@ -1,4 +1,4 @@
-configuration 'XOAP_AddServerToCollection'
+Configuration 'XOAP_AddServerToCollection'
 {
 Import-DSCResource -Module 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_QuickStartConfiguration' -ModuleVersion '0.0.1'
     

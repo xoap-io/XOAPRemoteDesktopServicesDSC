@@ -1,4 +1,4 @@
-configuration 'XOAP_ConfigureCertificateConfiguration'
+Configuration 'XOAP_ConfigureCertificateConfiguration'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureCertificateConfiguration' -ModuleVersion '0.0.1'
 

@@ -1,4 +1,4 @@
-configuration 'XOAP_NewRemoteApp'
+Configuration 'XOAP_NewRemoteApp'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_NewRemoteApp' -ModuleVersion '0.0.1'
 

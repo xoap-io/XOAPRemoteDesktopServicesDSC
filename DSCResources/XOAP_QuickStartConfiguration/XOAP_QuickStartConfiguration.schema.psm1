@@ -1,4 +1,4 @@
-configuration 'XOAP_QuickStartConfiguration'
+Configuration 'XOAP_QuickStartConfiguration'
 {
     Import-DSCResource -ModuleName 'PSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'xRemoteDesktopSessionHost' -ModuleVersion '2.1.0'

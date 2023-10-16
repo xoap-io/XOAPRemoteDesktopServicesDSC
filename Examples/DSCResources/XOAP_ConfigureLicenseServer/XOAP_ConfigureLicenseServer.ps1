@@ -1,4 +1,4 @@
-configuration 'XOAP_ConfigureLicenseServer'
+Configuration 'XOAP_ConfigureLicenseServer'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_ConfigureLicenseServer' -ModuleVersion '0.0.1'
 

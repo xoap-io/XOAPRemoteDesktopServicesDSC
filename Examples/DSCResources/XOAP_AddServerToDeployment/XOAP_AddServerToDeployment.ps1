@@ -1,4 +1,4 @@
-configuration 'XOAP_AddServerToDeployment'
+Configuration 'XOAP_AddServerToDeployment'
 {
     Import-DscResource -ModuleName 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_AddServerToDeployment' -ModuleVersion '0.0.1'
     
