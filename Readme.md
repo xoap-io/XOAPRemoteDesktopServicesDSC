@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # XOAPRemoteDesktopServicesDSC
 
 This repository contains a PowerShell DSC module for the deployment of a complete Remote Desktop Services environment.
@@ -13,7 +12,6 @@ Please check out common DSC Community [contributing guidelines](https://dsccommu
 
 ## Change log
 
-<<<<<<< HEAD
 A full list of changes in each version can be found in the [Releases](https://github.com/xoap-io/XOAPRemoteDesktopServicesDSC/releases).
 
 ## Documentation
