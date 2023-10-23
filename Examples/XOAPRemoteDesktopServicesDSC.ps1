@@ -1,6 +1,6 @@
 Configuration 'XOAPRemoteDesktopServicesDSC'
 {
-	Import-DSCResource -Module 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_QuickStartConfiguration' -ModuleVersion '0.0.1'
+	Import-DSCResource -Module 'XOAPRemoteDesktopServicesDSC' -Name 'XOAP_RDSQuickStartConfiguration' -ModuleVersion '0.0.1'
 
     param
         (
@@ -11,7 +11,7 @@ Configuration 'XOAPRemoteDesktopServicesDSC'
 
 	Node 'XOAPRemoteDesktopServicesDSC'
 	{
-        XOAP_QuickConfiguration 'Example'
+        XOAP_RDSQuickStartConfiguration 'Example'
             {
                 ConnectionBrokerServerName = $ConnectionBrokerServerName
                 SessionHostServerName = $$SessionHostServerName
