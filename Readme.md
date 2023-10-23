@@ -14,17 +14,15 @@ Please check out common DSC Community [contributing guidelines](https://dsccommu
 
 A full list of changes in each version can be found in the [Releases](https://github.com/xoap-io/XOAPRemoteDesktopServicesDSC/releases).
 
-## Documentation
-
-The XOAP demo configuration DSC module contains examples for the following resources:
-
 ## Prerequisites
 
 Be sure that the following DSC modules are installed on your system:
 
 - xRemoteDesktopSessionHost (2.1.0)
 
-## DSC Resources and syntax
+## Documentation
+
+The XOAP Remote Desktop Services DSC module contains the following resources:
 
 ### XOAP_AddServerToCollection
 
